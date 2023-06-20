@@ -2,3 +2,14 @@
 // argumento. A partir de la cadena que se le pasa, la función determina si esa cadena está formada
 // sólo por mayúsculas, sólo por minúsculas o por una mezcla de ambas.
 
+console.log(determinarTipoCadena("HOLA")); 
+
+function determinarCadena(cadena) {
+    if (cadena === cadena.toUpperCase()) {
+      return "Mayúsculas";
+    } else if (cadena === cadena.toLowerCase()) {
+      return "Minúsculas";
+    } else {
+      return "Mezcla de mayúsculas y minúsculas";
+    }
+  }
