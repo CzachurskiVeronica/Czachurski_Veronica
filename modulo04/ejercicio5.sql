@@ -26,4 +26,4 @@
 -- w) SELECT departamentos.nombre FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id WHERE empleados.nombre = "Pepe" AND empleados.apellido = 'Ruiz';
 -- x) SELECT * FROM empleados WHERE departamento = 5 ORDER BY nombre ASC;
 -- y) SELECT empleados.* FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id WHERE empleados.departamento IN(2, 4, 5) ORDER BY empleados.apellido ASC;
--- z) SELECT empleados.nombre FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id WHERE select departamentos.departamento_id where departamentos.presupuesto NOT (BETWEEN 100000 AND 200000);
+-- z) SELECT empleados.* FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id WHERE departamentos.presupuesto NOT BETWEEN 100000 AND 200000 ORDER BY empleados.apellido ASC;
