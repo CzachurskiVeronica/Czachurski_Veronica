@@ -1,0 +1,29 @@
+-- A fin de visualizar los datos cargados 
+-- SELECT * FROM ejercicio2.empleados; 
+
+-- a) SELECT apellido FROM empleados;
+-- b) SELECT DISTINCT apellido FROM empleados; 
+-- c) SELECT * FROM ejercicio5.empleados; 
+-- d) SELECT nombre, apellido FROM empleados;
+-- e) SELECT empleados.cuil_cuit FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id;
+-- f) SELECT CONCAT(nombre, ' ', apellido) AS nombre_completo FROM empleados;
+-- g) SELECT CONCAT(upper(nombre), ' ', upper(apellido)) AS nombre_completo FROM empleados;
+-- h) SELECT CONCAT(lower(nombre), ' ', lower(apellido)) AS nombre_completo FROM empleados;
+-- i) SELECT nombre, presupuesto AS valor_actual FROM departamentos ORDER BY presupuesto, nombre ASC;
+-- j) SELECT nombre FROM departamentos ORDER BY nombre ASC;
+-- k) SELECT nombre FROM departamentos ORDER BY nombre DESC;
+-- l) SELECT apellido, nombre FROM empleados ORDER BY apellido, nombre ASC;
+-- m) SELECT nombre, presupuesto FROM departamentos ORDER BY presupuesto DESC LIMIT 3;
+-- n) SELECT nombre, presupuesto FROM departamentos ORDER BY presupuesto ASC LIMIT 3;
+-- o) SELECT nombre, presupuesto FROM departamentos WHERE presupuesto >= 150000;
+-- p) SELECT nombre, presupuesto FROM departamentos WHERE presupuesto > 100000 AND presupuesto < 200000;
+-- q) SELECT nombre FROM departamentos WHERE presupuesto < 100000 OR presupuesto > 200000;
+-- r) SELECT nombre FROM departamentos WHERE presupuesto BETWEEN 100000 AND 200000;
+-- s) SELECT CONCAT(empleados.nombre, ' ', empleados.apellido) AS Nombre_Apellido, departamentos.nombre AS Departamento FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id;
+-- t) SELECT CONCAT(empleados.nombre, ' ', empleados.apellido) AS Nombre_Apellido, departamentos.* FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id ORDER BY departamentos.nombre ASC, empleados.apellido ASC, empleados.nombre ASC;
+-- u) SELECT departamentos.departamento_id, departamentos.nombre FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id;
+-- v) SELECT departamentos.nombre FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id WHERE empleados.cuil_cuit = "27-38382980-3";
+-- w) SELECT departamentos.nombre FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id WHERE empleados.nombre = "Pepe" AND empleados.apellido = 'Ruiz';
+-- x) SELECT * FROM empleados WHERE departamento = 5 ORDER BY nombre ASC;
+-- y) SELECT empleados.* FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id WHERE empleados.departamento IN(2, 4, 5) ORDER BY empleados.apellido ASC;
+-- z) SELECT empleados.nombre FROM empleados INNER JOIN departamentos ON empleados.departamento = departamentos.departamento_id WHERE select departamentos.departamento_id where departamentos.presupuesto NOT (BETWEEN 100000 AND 200000);
