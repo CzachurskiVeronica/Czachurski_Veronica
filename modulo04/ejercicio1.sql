@@ -2,7 +2,7 @@ CREATE TABLE ESTUDIANTE
 (
   nombre VARCHAR(25) NOT NULL,
   dni INT NOT NULL,
-  fecha_nac VARCHAR(25) NOT NULL,
+  fecha_nac DATE NOT NULL,
   email VARCHAR(25) NOT NULL,
   cod_matricula INT NOT NULL,
   PRIMARY KEY (cod_matricula)
