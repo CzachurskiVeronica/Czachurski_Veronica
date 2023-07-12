@@ -31,7 +31,7 @@ CREATE TABLE EMPLEADO
   nombre CHAR(25) NOT NULL,
   telefono INT NOT NULL,
   email VARCHAR(25) NOT NULL,
-  _fecha_alta VARCHAR(25) NOT NULL,
+  _fecha_alta DATE NOT NULL,
   codigo_localidad INT NOT NULL,
   PRIMARY KEY (empleado_id),
   FOREIGN KEY (codigo_localidad) REFERENCES LOCALIDAD(codigo_localidad)
