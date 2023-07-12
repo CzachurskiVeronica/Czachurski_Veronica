@@ -18,7 +18,7 @@ CREATE TABLE LOCALIDAD
 (
   codigo_localidad INT NOT NULL,
   nombre CHAR(25) NOT NULL,
-  codigo_postal INT NOT NULL,
+  codigo_postal VARCHAR(10) NOT NULL,
   provincia_id INT NOT NULL,
   PRIMARY KEY (codigo_localidad),
   FOREIGN KEY (provincia_id) REFERENCES PROVINCIA(provincia_id)
@@ -29,7 +29,7 @@ CREATE TABLE EMPLEADO
   empleado_id INT NOT NULL,
   dni INT NOT NULL,
   nombre CHAR(25) NOT NULL,
-  telefono INT NOT NULL,
+  telefono VARCHAR(25) NOT NULL,
   email VARCHAR(25) NOT NULL,
   _fecha_alta DATE NOT NULL,
   codigo_localidad INT NOT NULL,
