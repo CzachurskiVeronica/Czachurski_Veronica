@@ -11,21 +11,14 @@ function calcularPromedio(notas) {
   return promedio;
 }
 
-switch (promedio) {
-  case 1: if (promedio <= 5) {
-    document.write("Reprobado");
+function evaluarPromedio(promedio) {
+  if (promedio <= 5) {
+    return "Reprobado";
+  } else if (promedio >= 6 && promedio <= 8) {
+    return "Aprobado";
+  } else if (promedio >= 8) {
+    return "Sobresaliente";
   }
-    break;
-  case 2: if (promedio >= 6 && promedio <= 8) {
-    document.write("Aprobado");
-  }
-    break;
-  case 3: if (promedio >= 8) {
-    document.write("Sobresaliente");
-  }
-    break;
-  default: document.write("Las notas no pueden ser evaluadas");
-    break;
 }
 
 var notas = [];
