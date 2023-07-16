@@ -1,34 +1,59 @@
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('1', '2021/11/01', '1', '2', '1884', '449', '449', '1884');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('2', '2021/11/02', '1', '1', '1488', '226', '226', '1488');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `observaciones`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('3', '2021/11/02', '2', '4', 'Falta completar carnet de vacunacion', '1498', '733', '733', '1498');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('4', '2021/11/03', '1', '2', '4551', '774', '774', '4551');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('5', '2021/11/05', '4', '7', '4112', '645', '645', '4112');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('6', '2021/11/15', '5', '9', '1236', '226', '226', '1236');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('7', '2021/11/17', '5', '10', '675', '774', '774', '675');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('8', '2021/12/9', '3', '6', '778', '888', '888', '778');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `observaciones`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('9', '2021/12/11', '4', '8', 'Solicitar electrocardiograma', '4112', '332', '332', '4112');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('10', '2021/12/11', '2', '3', '3212', '774', '774', '3212');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('11', '2021/12/18', '2', '4', '778', '334', '334', '778');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('12', '2021/12/22', '1', '1', '1488', '155', '155', '1488');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('13', '2022/1/4', '9', '17', '1236', '645', '645', '1236');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('14', '2022/1/11', '5', '9', '675', '226', '226', '675');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('15', '2022/1/11', '4', '8', '3212', '155', '155', '3212');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('16', '2022/1/16', '8', '16', '1236', '226', '226', '1236');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('17', '2022/1/24', '2', '3', '1488', '888', '888', '1488');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('18', '2022/2/1', '8', '15', '3212', '334', '334', '3212');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('19', '2022/2/14', '1', '2', '1884', '449', '449', '1884');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('20', '2022/2/15', '7', '13', '4112', '888', '888', '4112');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('21', '2022/3/2', '3', '5', '675', '155', '155', '675');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('22', '2022/3/7', '8', '12', '4551', '334', '334', '4551');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('23', '2022/3/13', '3', '6', '1498', '645', '645', '1498');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('24', '2022/3/16', '9', '18', '675', '155', '155', '675');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('25', '2022/3/19', '5', '9', '4112', '774', '774', '4112');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `observaciones`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('26', '2022/3/22', '6', '11', 'Cuenta con servicio integral de rehabilitacion', '1498', '332', '332', '1498');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('27', '2022/3/22', '3', '6', '1884', '332', '332', '1884');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('28', '2022/3/22', '5', '10', '778', '449', '449', '778');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('29', '2022/3/23', '1', '1', '4112', '155', '155', '4112');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('30', '2022/3/25', '3', '6', '1236', '226', '226', '1236');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('31', '2022/3/29', '2', '4', '3212', '645', '645', '3212');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('32', '2022/3/30', '9', '17', '4112', '155', '155', '4112');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `observaciones`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('33', '2022/4/5', '6', '11', 'Internacion por deshidratacion', '1488', '733', '733', '1488');
-INSERT INTO `clinica`.`ingreso` (`id_ingreso`, `fecha_ingreso`, `nro_habitacion`, `nro_cama`, `nro_historial_paciente`, `matricula_medico`, `medico_matricula`, `paciente_nro_historial_clinico`) VALUES ('34', '2022/4/7', '7', '13', '4551', '774', '774', '4551');
+INSERT INTO medico (matricula, nombre, apellido, especialidad, observaciones)
+VALUES (155, "Alfredo", "Gutierrez", "Medicina Familiar", "No atiende PAMI"),
+	(221, 'Luisa', 'Foseca', 'Cardiología', null),
+	(226, 'Frodo', 'Bolson', 'Pediatría', 'Solamente turno tarde'),
+	(332, 'Jesus Maria', 'Prates', 'Cirugía', null),
+	(334, 'Gandalf', 'Meriadoc', 'Infectología', null),
+	(449, 'Ricardo', 'Puchini', 'Medicina Familiar', 'medico clinico general'),
+	(645, 'Cacho', 'Villa', 'Oftalmología', null),
+	(733, 'Tatiana', 'Brandigamo', 'Pediatría', null),
+	(774, 'Alfonso', 'Chamorro', 'Cardiología', null),
+	(888, 'Pedro Pablo', 'Cichanowski', 'Urología', 'actualmente con licencia por covid');
+
+INSERT INTO paciente (nss, nombre, apellido, domicilio, codigo_postal, telefono, nro_historial_clinico, observaciones)
+VALUES (32197, 'Aewin', 'Rohan', 'Valinor 1001', 2366, 3274232336, 675, null),
+	(971649, 'Glorfindel', 'Arda', 'Terminal esquina Avenida', 3360, 3755447031, 778, 'realizar PCR'),
+	(316619, 'Karen Sophia', 'Burgin', 'Primeros Colonos y Junin', 3640, 3745998877, 1236, null),
+	(3648, 'Gimli', 'Moria', 'Juan Manuel de Orquideas 335', 3363, 3755866545, 1488, null),
+	(87164, 'Legolas', 'Bosque Negro', 'Krause y Villavieja', 3514, 3971544444, 1498, 'historial de cardiopatias'),
+	(254651, 'Elrond', 'Rivendell', 'Balneario Campo Grande', 3350, 3764421479, 1884, null),
+	(369844, 'Galadriel', 'Lorien', 'Bareiro 170', 2207, 3943425561, 3212, null),
+	(44946, 'Josefina', 'Pereira Dias', 'Calle primera 201', 3363, 3755587912, 4112, null),
+	(654165, 'Jose', 'Villagran', 'Arrayanes 1205', 3360, 3755589478, 4551, null);
+
+INSERT INTO ingreso (id_ingreso, fecha_ingreso, nro_habitacion, nro_cama, observaciones, nro_historial_paciente,
+matricula_medico, medico_matricula, paciente_nro_historial_clinico)
+VALUES (1, '2021-11-01', 1, 2, null, 1884, 449, 449, 1884),
+	(2, '2021-11-02', 1, 1, null, 1488, 226, 226, 1488),
+	(3, '2021-11-02', 2, 4, 'Falta completar carnet de vacunacion', 1498, 733, 733, 1498),
+	(4, '2021-11-03', 1, 2, null, 4551, 774, 774, 4551),
+	(5, '2021-11-05', 4, 7, null, 4112, 645, 645, 4112),
+	(6, '2021-11-15', 5, 9, null, 1236, 226, 226, 1236),
+	(7, '2021-11-17', 5, 10, null, 675, 774, 774, 675),
+	(8, '2021-12-09', 3, 6, null, 778, 888, 888, 778),
+	(9, '2021-12-11', 4, 8, 'Solicitar electrocardiograma', 4112, 332, 332, 4112),
+	(10, '2021-12-11', 2, 3, null, 3212, 774, 774, 3212),
+	(11, '2021-12-18', 2, 4, null, 778, 334, 334, 778),
+	(12, '2021-12-22', 1, 1, null, 1488, 155, 155, 1488),
+	(13, '2022-01-04', 9, 17, null, 1236, 645, 645, 1236),
+	(14, '2022-01-11', 5, 9, null, 675, 226, 226, 675),
+	(15, '2022-01-12', 4, 8, null, 3212, 155, 155, 3212),
+	(16, '2022-01-16', 8, 16, null, 1236, 226, 226, 1236),
+	(17, '2022-01-24', 2, 3, null, 1488, 888, 888, 1488),
+	(18, '2022-02-01', 8, 15, null, 3212, 334, 334, 3212),
+	(19, '2022-02-14', 1, 2, null, 1884, 449, 449, 1884),
+	(20, '2022-02-15', 7, 13, null, 4112, 888, 888, 4112),
+	(21, '2022-03-02', 3, 5, null, 675, 155, 155, 675),
+	(22, '2022-03-07', 8, 12, null, 4551, 334, 334, 4551),
+	(23, '2022-03-13', 3, 6, null, 1498, 645, 645, 1498),
+	(24, '2022-03-16', 9, 18, null, 675, 155, 155, 675),
+	(25, '2022-03-19', 5, 9, null, 4112, 774, 774, 4112),
+	(26, '2022-03-22', 6, 11, 'Cuenta con servicio integral de reabilitacion', 1498, 332, 332, 1498),
+	(27, '2022-03-22', 3, 6, null, 1884, 332, 332, 1884),
+	(28, '2022-03-22', 5, 10, null, 778, 449, 449, 778),
+	(29, '2022-03-23', 1, 1, null, 4112, 155, 155, 4112),
+	(30, '2022-03-25', 3, 6, null, 1236, 226, 226, 1236),
+	(31, '2022-03-29', 2, 4, null, 3212, 645, 645, 3212),
+	(32, '2022-03-30', 9, 17, null, 4112, 155, 155, 4112),
+	(33, '2022-04-05', 6, 11, 'Internacion por deshidratacion', 1488, 733, 733, 1488),
+	(34, '2022-04-07', 7, 13, null, 4551, 774, 774, 4551);
